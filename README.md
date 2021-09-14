@@ -326,3 +326,33 @@ public class WebsitesRetrievalResultWrapper {
 
 }
 ```
+
+**Which gives an JSON output like this:**
+```
+{
+   "websiteRetrievalResult":[
+      {
+         "httpStatusCode":200,
+         "websiteData":"RESULT – Izzivi in rešitve",
+         "successful":true
+      },
+      {
+         "httpStatusCode":200,
+         "websiteData":"O nas – RESULT",
+         "successful":true
+      },
+      {
+         "httpStatusCode":200,
+         "websiteData":"Kariera – RESULT",
+         "successful":true
+      },
+      {
+         "httpStatusCode":200,
+         "websiteData":"RESULT – Blog z vrhunskimi vsebinami s področja optimizacije poslovanja",
+         "successful":true
+      }
+   ],
+   "numberOfUnsuccessfulCalls":0,
+   "numberOfSuccessfulCalls":4
+}
+```
