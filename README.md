@@ -54,7 +54,7 @@ static int successfulCalls = 0;
     }
 }
 ```
-**Which gives an console output like this:**
+**Which gives a console output like this:**
 ```
 RESULT – Izzivi in rešitve
 Stevilo uspelih klicev:1
